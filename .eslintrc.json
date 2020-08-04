@@ -10,6 +10,10 @@
       "error",
       "LabeledStatement",
       "WithStatement"
-    ]
+    ],
+    "max-classes-per-file": ["error", 2],
+    "no-unused-vars": 0,
+    "class-methods-use-this": ["error", { "exceptMethods": ["start"] }],
+    "no-console": ["error", { "allow": ["warn", "error", "log"] }]
   }
 }
